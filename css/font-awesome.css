@@ -211,7 +211,28 @@
     color: #fff
 }
 
-.fa-glass:before {
+.fa-twitter:before {
+    content: "\f099"
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+.fa-dribbble:before {
+    content: "\f17d"
+}
+
+.fa-instagram:before {
+    content: "\f16d"
+}
+
+.fa-chevron-up:before {
+    content: "\f077"
+}
+
+/* .fa-glass:before {
     content: "\f000"
 }
 
@@ -669,10 +690,6 @@
     content: "\f076"
 }
 
-.fa-chevron-up:before {
-    content: "\f077"
-}
-
 .fa-chevron-down:before {
     content: "\f078"
 }
@@ -797,15 +814,6 @@
 
 .fa-phone-square:before {
     content: "\f098"
-}
-
-.fa-twitter:before {
-    content: "\f099"
-}
-
-.fa-facebook-f:before,
-.fa-facebook:before {
-    content: "\f09a"
 }
 
 .fa-github:before {
@@ -1575,10 +1583,6 @@
     content: "\f16c"
 }
 
-.fa-instagram:before {
-    content: "\f16d"
-}
-
 .fa-flickr:before {
     content: "\f16e"
 }
@@ -1633,10 +1637,6 @@
 
 .fa-linux:before {
     content: "\f17c"
-}
-
-.fa-dribbble:before {
-    content: "\f17d"
 }
 
 .fa-skype:before {
@@ -3020,7 +3020,7 @@
 
 .fa-meetup:before {
     content: "\f2e0"
-}
+} */
 
 .sr-only {
     position: absolute;
