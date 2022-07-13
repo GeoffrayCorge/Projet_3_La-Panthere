@@ -6,7 +6,7 @@
     font-style: normal
 }
 
-/* .et-icon-adjustments,
+.et-icon-adjustments,
 .et-icon-alarmclock,
 .et-icon-anchor,
 .et-icon-aperture,
@@ -102,7 +102,7 @@
 .et-icon-upload,
 .et-icon-video,
 .et-icon-wallet,
-.et-icon-wine, */
+.et-icon-wine,
 .et-icon-browser,
 .et-icon-edit,
 .et-icon-presentation {
@@ -129,7 +129,7 @@
 .et-icon-presentation:before {
     content: "\e00e"
 }
-/* 
+
 .et-icon-mobile:before {
     content: "\e000"
 }
@@ -519,4 +519,4 @@
 
 .et-icon-dribbble:before {
     content: "\e063"
-} */
+}
