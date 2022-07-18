@@ -1660,7 +1660,8 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+    font-size: 1em;
 }
 
 .text-justify {
@@ -1870,11 +1871,12 @@ blockquote {
     padding-bottom: 10px;
 }
 
-.col-sm-12 .quotes, .col-xs-12 .quotes{
+.col-sm-12 .quotes {
     width: 60%;
 }
 
 .col-xs-12 .quotes{
+    width: 95%;
     font-style: italic;
 }
 
@@ -7909,8 +7911,8 @@ button.close {
     th.visible-xs {
         display: table-cell 
     }
-    .col-sm-12 .quotes, #bloc-4-portfolio .quotes, .col-xs-12 .quotes{
-        width: 90%;
+    .col-sm-12 .quotes, #bloc-4-portfolio .quotes{
+        width: 95%;
     }
 
 }
