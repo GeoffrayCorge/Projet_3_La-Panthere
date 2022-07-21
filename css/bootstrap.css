@@ -363,7 +363,7 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .carousel-inner>.item>a>img,
@@ -826,6 +826,7 @@ blockquote {
 
 figcaption{
     font-size: 1.5em;
+    color: #575757;
 }
 
 blockquote ol:last-child,

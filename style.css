@@ -9,6 +9,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.hidden{
+    display: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -93,7 +97,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -787,8 +791,13 @@ h4 {
     color: #FFFFFF;
 }
 
-.col-sm-12 .tc-white {
+.col-sm-12 .tc-white, .col-sm-4 ul a{
     color: #FFFFFF;
+}
+
+.col-sm-4 h2{
+    color: #FFFFFF;
+    font-size: 1em;
 }
 
 .btn-atomic-tangerine {
@@ -1045,10 +1054,8 @@ h4 {
     .social{
         display: flex;
         height: 60px;
-        display: flex;
         padding: 5px 15px;
-        margin: auto 16px;
-    }
+        justify-content: space-between;    }
 }
 
 @media (max-width: 400px) {
