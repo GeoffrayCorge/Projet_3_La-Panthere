@@ -165,6 +165,12 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
+#bloc-5-cta .text-center{
+    font-size: 1.4em;
+    font-weight: bold;
+    position : relative;
+}
+
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
