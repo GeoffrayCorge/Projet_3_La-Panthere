@@ -112,7 +112,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #000000;
 }
 
 .d-bloc button:hover {
@@ -303,6 +303,10 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+}
+
+#bloc-3-what-i-do h2{
+    font-size: 1.5em;
 }
 
 .navbar {
@@ -794,15 +798,19 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF;
+    color: #FFF;
 }
 
-.col-sm-12 .tc-white, .col-sm-4 ul a{
-    color: #FFFFFF;
+.col-sm-12 .tc-white {
+    color: #fff;
+}
+
+.col-sm-4 ul a{
+    color: #000;
 }
 
 .col-sm-4 h2{
-    color: #FFFFFF;
+    color: #000;
     font-size: 1em;
 }
 
@@ -1075,4 +1083,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+#bloc-8 .white{
+    color: #000;
 }
